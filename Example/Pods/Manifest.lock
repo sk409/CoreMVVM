@@ -1,0 +1,48 @@
+PODS:
+  - CoreLifecycle (0.1.3)
+  - CoreMVVM (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Nimble (7.3.4)
+  - Nimble-Snapshots (6.3.0):
+    - Nimble-Snapshots/Core (= 6.3.0)
+  - Nimble-Snapshots/Core (6.3.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble (~> 7.0)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - CoreLifecycle
+  - CoreMVVM (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Nimble (~> 7.0)
+  - Nimble-Snapshots (~> 6.3.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
+  https://github.com/sk409/CocoaPodSpecs.git:
+    - CoreLifecycle
+
+EXTERNAL SOURCES:
+  CoreMVVM:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoreLifecycle: 6badd5cdb478469147b95910347467dfc3cbad0e
+  CoreMVVM: b1f8890e4e3c228048ec9257cb0995eb1d506801
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: b78a87abf00ff1f404a7d27a2733843ebf2a748e
+
+COCOAPODS: 1.9.3
